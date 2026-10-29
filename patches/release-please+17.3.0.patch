@@ -2,6 +2,7 @@
 +++ b/build/src/github.js
 @@ -78,14 +78,20 @@
                      this.logger.trace('no GraphQL response, retrying');
+                     
                  }
                  catch (err) {
 -                    if (err.status !== 502) {
