@@ -37,6 +37,7 @@
            target {
 @@ -558,7 +565,7 @@
                        mergeCommit {
+                       
                          oid
                        }
 -                      files(first: $maxFilesChanged) {
