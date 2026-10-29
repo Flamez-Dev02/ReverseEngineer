@@ -109,7 +109,7 @@
 +++ b/build/src/manifest.js
 @@ -248,6 +248,14 @@
                  releasesFound++;
-             }
+             } // @@
          }
 +        // A recorded version requires its release boundary, even while a
 +        // concurrent publisher has not created the matching release/tag yet.
